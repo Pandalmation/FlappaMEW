@@ -274,6 +274,7 @@ createEnemies()
 def resetgame():
     Mew.rect.x = 20
     Mew.rect.y = int(screen_height/2 - 20)
+    Mew.healthremaining = Mew.healthstart
     
 
     action = False
